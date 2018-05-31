@@ -13,28 +13,9 @@ def fizzbuzz(n)
 			puts num
 		end
 	end
-​
 end
 ​
 puts fizzbuzz(100)
-​
-##########################################################
-def translate_integer(int)
-  int.times do |number|
- 	  num = number + 1 make sure it is count 1-100, instead of 0-99
- 	  if (num % 3 == 0 && num % 5 == 0)
- 		 puts "rightpoint"
- 	  elsif (num % 5 == 0)
- 		 puts "point"
- 	  elsif (num % 3 == 0)
- 		 puts "right"
-  	else
- 		 puts num
- 	  end
-  end
-end
-​
-translate_integer(100)
 ​
 ##########################################################
 ​
